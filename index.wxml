@@ -1,0 +1,11 @@
+<!--index.wxml-->
+
+<view class="box">
+<image src='{{imgSrc}}'  bindtap='tap'></image>
+<view class="title">彩票号码</view>
+<view>产生数字为：</view>
+<view wx:for="{{rand}}">{{item}}</view>
+<view>彩票号码为：{{sum}}</view>
+<button type="primary" bindtap="newRand"></button>
+</view>
+<view class="end">电科19-1 王耀敏 201923010126</view>
